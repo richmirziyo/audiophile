@@ -1,5 +1,16 @@
 import React from "react";
+import Header from "./components/Header/Header";
+import CategoryHero from "./components/category-hero/CategoryHero";
+import Main from "./components/main/Main";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
-  return <div>App</div>;
+  return (
+    <>
+      <Header />
+      <CategoryHero />
+      <Main />
+      <Footer />
+    </>
+  );
 }
